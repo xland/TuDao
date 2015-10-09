@@ -29,7 +29,7 @@ namespace TuDao.App
             var key = Console.ReadLine();
             if(key == "1")
             {
-                Console.WriteLine("请先输入目标商户的商品列表页面地址：");//https://brloote.tmall.com/view_shop.htm?spm=a1z10.3-b.w4011-2631378176.326.dtZR3V&search=y&orderType=newOn_desc&scene=taobao_shop
+                Console.WriteLine("请先输入目标商户的商品列表页面地址：");
                 baseListUrl = Console.ReadLine();
                 getId();
                 Console.WriteLine("第1步操作执行完毕，按任意键退出程序");
